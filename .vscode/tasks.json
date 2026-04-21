@@ -10,7 +10,8 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                ""
+                "-lstdc++",
+                "-mconsole"
             ],
             "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
