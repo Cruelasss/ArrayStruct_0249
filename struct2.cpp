@@ -20,14 +20,18 @@ int main () {
     cin >> mhs.nim ;
     cout << "Masukkan Nama : ";
     cin >> mhs.nama ;
-    cout << "Masukkan Alamat : ";
-    cin >> mhs.alamat ;
+    cout << "Alamat Mahasiswa : " << endl ;
+    cout << " \t Masukkan Desa : ";
+    cin >> mhs.alamat.desa ;
+    cout << "Masukkan Kota : ";
+    cin >> mhs.alamat.kota ;
     cout << "Masukkan Umur : ";
     cin >> mhs.umur ;
 
     cout << endl;
     cout << " \n NIM : " << mhs.nim << endl ;
     cout << "\n Nama : " << mhs.nama << endl ; 
-    cout << "\n Alamat : " << mhs.alamat << endl ;
+    cout << "\n Desa : " << mhs.alamat.desa << endl ;
+    cout << "\n Kota : " << mhs.alamat.kota << endl ;
     cout << "\n Umur : " << mhs.umur << endl ;
 }
