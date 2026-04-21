@@ -19,4 +19,5 @@ int main () {
     cin >> mhs.alamat ;
     cout << "Masukkan Umur : ";
     cin >> mhs.umur ;
-}
+
+   
