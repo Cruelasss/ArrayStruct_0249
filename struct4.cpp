@@ -27,11 +27,11 @@ int main () {
         cout << "Alamat Mahasiswa : " << endl ;
         cout << " \t Masukkan Desa : ";
         cin >> mhs[i].alamat.desa ;
-        cout << "Masukkan Kota : ";
+        cout << "\t Masukkan Kota : ";
         cin >> mhs[i].alamat.kota ;
         cout << "Masukkan Umur : ";
         cin >> mhs[i].umur ;
-        cin.ignore() ; // untuk membersihkan buffer setelah input angka
+        cin.ignore() ; 
     }
 
  
